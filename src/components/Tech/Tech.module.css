@@ -1,0 +1,93 @@
+.section {
+  background-color: var(--white);
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+}
+
+/*****
+TITLE
+*****/
+
+.titleCont {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  font-family: var(--serif);
+  font-size: var(--heading);
+  font-weight: 300;
+  padding-top: 1rem;
+  margin: 2.5rem 0 0 0;
+  position: relative;
+}
+
+.ul {
+  width: 12rem;
+  height: 0.5px;
+}
+
+/*****
+CARDS
+*****/
+
+.cardCont {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.Card {
+  height: 60vh;
+  width: 30vw;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.feCard {
+  background-image: linear-gradient(#f6e7e7, rgba(25, 0, 0, 0));
+  margin-right: 3rem;
+}
+
+.beCard {
+  background-image: linear-gradient(#d1e0d4, rgba(25, 0, 0, 0));
+  margin-left: 3rem;
+}
+
+/*****
+ICONS
+*****/
+
+.subTitle {
+  font-family: var(--sans);
+  font-weight: 300;
+  color: var(--text);
+  letter-spacing: 2px;
+  border: 1px solid var(--text);
+  margin: 2rem auto 0 auto;
+  padding: 0.3rem 0.5rem;
+  width: fit-content;
+}
+
+.allIcon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.iconCont {
+  height: 10rem;
+  width: 10vw;
+}
+
+.iconCont p {
+  font-family: var(--sans);
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.icon {
+  font-size: 4em;
+}
