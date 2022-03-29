@@ -12,7 +12,7 @@ import { AiOutlineConsoleSql, AiOutlineApi } from "react-icons/ai";
 
 function Tech() {
   return (
-    <div className={style.section}>
+    <div id="tech" className={style.section}>
       <div className={style.titleCont}>
         <h2 className={style.title}>Tech Stack</h2>
         <hr className={style.ul} />

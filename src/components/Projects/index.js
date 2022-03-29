@@ -5,7 +5,7 @@ import YoutubeEmbed from "../YoutubeEmbed";
 function Projects() {
   const videoId = "VHPkxwTgddA";
   return (
-    <div className={style.section}>
+    <div id="projects" className={style.section}>
       <h2 className={style.title}>Projects</h2>
       <div className={style.projCont}>
         <div className={style.videoCont}>
