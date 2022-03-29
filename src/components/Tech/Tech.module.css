@@ -1,8 +1,7 @@
 .section {
   background-color: var(--white);
-  height: 100vh;
+  height: 65vh;
   width: 100vw;
-  overflow: auto;
 }
 
 /*****
@@ -19,7 +18,7 @@ TITLE
   font-size: var(--heading);
   font-weight: 300;
   padding-top: 1rem;
-  margin: 2.5rem 0 0 0;
+  margin: 0 0 0 0;
   position: relative;
 }
 
@@ -35,12 +34,12 @@ CARDS
 .cardCont {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .Card {
-  height: 60vh;
-  width: 30vw;
+  height: 40vh;
+  width: 40vw;
   text-align: center;
   border-radius: 10px;
 }
@@ -78,8 +77,9 @@ ICONS
 }
 
 .iconCont {
-  height: 10rem;
-  width: 10vw;
+  height: auto;
+  width: 8vw;
+  flex-basis: 33.333333%;
 }
 
 .iconCont p {
@@ -89,5 +89,5 @@ ICONS
 }
 
 .icon {
-  font-size: 4em;
+  font-size: 3em;
 }

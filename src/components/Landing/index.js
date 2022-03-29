@@ -13,7 +13,6 @@ function Landing() {
           <li>~</li>
           <li className={style.links}>Contact</li>
         </ul>
-        <h3 className={style.construction}>~Under Construction~</h3>
       </nav>
       <div className={style.imgCont}>
         <img
