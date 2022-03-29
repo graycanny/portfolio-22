@@ -5,7 +5,7 @@ import Map from "./Map";
 
 function Contact() {
   return (
-    <div className={style.section}>
+    <div id="contact" className={style.section}>
       <section className={style.contactMain}>
         <h3 className={style.title}>Get in touch</h3>
         <div className={style.contactCont}>

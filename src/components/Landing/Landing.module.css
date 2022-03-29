@@ -5,6 +5,10 @@
   overflow: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*****
 NAVBAR
 *****/
@@ -24,7 +28,7 @@ NAVBAR
 
 .navItems li {
   margin: 0 1rem 0 1rem;
-  padding-top: 2rem;
+  padding-top: 1.4rem;
   list-style: none;
   font-family: var(--sans);
   font-weight: 300;

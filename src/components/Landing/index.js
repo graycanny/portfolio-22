@@ -7,11 +7,19 @@ function Landing() {
     <div className={style.section}>
       <nav className={style.navbar}>
         <ul className={style.navItems}>
-          <li className={style.links}>Projects</li>
+          <a href="#projects">
+            <li className={style.links} href="#projects">
+              Projects
+            </li>
+          </a>
           <li>~</li>
-          <li className={style.links}>Tech</li>
+          <a href="#tech">
+            <li className={style.links}>Tech</li>
+          </a>
           <li>~</li>
-          <li className={style.links}>Contact</li>
+          <a href="#contact">
+            <li className={style.links}>Contact</li>
+          </a>
         </ul>
       </nav>
       <div className={style.imgCont}>
