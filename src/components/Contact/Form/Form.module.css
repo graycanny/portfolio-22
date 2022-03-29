@@ -1,0 +1,83 @@
+.container {
+  width: 30vw;
+  margin: 10px auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--sans);
+}
+
+/***************
+LABELS
+***************/
+
+label {
+  margin: 0 0 5px 20px;
+  letter-spacing: 1px;
+  color: var(--text);
+}
+
+/***************
+INPUTS
+***************/
+
+.firstName {
+  width: 40%;
+  margin: 0 0 15px 20px;
+  padding: 5px;
+  border: 1px solid var(--tertiary);
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.lastName {
+  width: 40%;
+  margin: 0 0 15px 20px;
+  padding: 5px;
+  font-family: var(--sans);
+  border: 1px solid var(--tertiary);
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  width: 50%;
+  margin: 0 0 15px 20px;
+  height: 10px;
+  padding: 10px;
+  font-family: var(--sans);
+  letter-spacing: 1px;
+  border: 1px solid var(--tertiary);
+  background: transparent;
+}
+
+.message {
+  width: 80%;
+  margin: 0 20px;
+  height: 100px;
+  padding: 15px;
+  font-family: var(--sans);
+  letter-spacing: 1px;
+  border: 1px solid var(--tertiary);
+  background: transparent;
+  resize: none;
+}
+
+/***************
+BUTTON
+***************/
+
+.send {
+  width: 100px;
+  margin: 20px auto;
+  height: 40px;
+  letter-spacing: 1px;
+  background: var(--tertiary);
+  color: var(--white);
+  cursor: pointer;
+  border-radius: 10px;
+}
