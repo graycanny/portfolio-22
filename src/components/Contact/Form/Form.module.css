@@ -95,3 +95,26 @@ BUTTON
   background-color: #222526;
   box-shadow: 0 2px 2px 0 #666;
 }
+
+/*********************************
+MOBILE
+**********************************/
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 80vw;
+  }
+
+  .firstName,
+  .lastName {
+    width: 60%;
+  }
+
+  .email {
+    width: 70%;
+  }
+
+  .message {
+    height: 1rem;
+  }
+}

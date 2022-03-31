@@ -25,7 +25,7 @@ function Tech() {
         <hr className={style.ul} />
       </div>
       <div className={style.cardCont}>
-        <div className={`${style.feCard} ${style.Card}`}>
+        <div className={`${style.feCard} ${style.card}`}>
           <h3 className={style.subTitle} data-scroll data-scroll-speed="0.5">
             Front End
           </h3>
@@ -87,7 +87,7 @@ function Tech() {
           </div>
         </div>
 
-        <div className={`${style.beCard} ${style.Card}`}>
+        <div className={`${style.beCard} ${style.card}`}>
           <h3
             className={style.subTitle}
             data-scroll

@@ -1,9 +1,21 @@
 .videoResponsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
+  /* overflow: hidden; */
+  /* padding-bottom: 56.25%; */
   position: relative;
   height: 250px;
   width: 400px;
-  padding: 5px;
-  margin: 20px auto 40px auto;
+  /* padding: 5px; */
+  margin: 50px auto 10px auto;
+}
+
+/*********************************
+MOBILE
+**********************************/
+
+@media only screen and (max-width: 500px) {
+  .videoResponsive {
+    height: 150px;
+    width: auto;
+    margin: 0;
+  }
 }

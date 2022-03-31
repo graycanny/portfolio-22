@@ -7,6 +7,10 @@
   align-items: center;
 }
 
+/*****************
+TITLE
+*****************/
+
 .title {
   margin: 0 5rem 0 5rem;
   font-family: var(--serif);
@@ -20,8 +24,12 @@
   padding: 0.2rem 0 2rem 0;
 }
 
+/*****************
+PROJECT
+*****************/
+
 .projCont {
-  height: 80vh;
+  height: 90vh;
   width: 70vw;
   background-image: linear-gradient(#f5f4f4, rgba(25, 0, 0, 0));
   border-radius: 10px;
@@ -74,6 +82,11 @@
   margin: 20px 0 0 0;
 }
 
+.listCont {
+  display: flex;
+  flex-direction: row;
+}
+
 .feList,
 .beList {
   color: var(--text);
@@ -99,4 +112,70 @@
   margin-top: 3px;
   margin-bottom: 5px;
   color: var(--tertiary);
+}
+
+/*********************************
+MOBILE
+**********************************/
+
+@media only screen and (max-width: 500px) {
+  .section {
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .title {
+    text-orientation: unset;
+    writing-mode: unset;
+    letter-spacing: 2px;
+    padding: 0.2rem;
+    font-size: 56px;
+    font-weight: 400;
+    margin: 1.5rem auto 1rem auto;
+  }
+
+  .projCont {
+    width: 90vw;
+  }
+
+  .videoCont {
+    margin: 2rem auto 1rem auto;
+  }
+
+  .logo {
+    margin: 0 auto 0 auto;
+  }
+
+  .textCont {
+    height: 60vh;
+    width: 85vw;
+    text-align: center;
+  }
+
+  .smallText {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .copy {
+    width: 80vw;
+  }
+
+  .listCont {
+    margin-top: 1.5rem;
+  }
+
+  .feList {
+    margin: 0 0.75rem 0 0;
+  }
+
+  .beList {
+    margin: 0 0 0 0.75rem;
+  }
+
+  .feList,
+  .beList {
+    width: 35vw;
+  }
 }
