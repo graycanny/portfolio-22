@@ -14,11 +14,13 @@ function Projects() {
           <YoutubeEmbed videoId={videoId} />
         </div>
         <div className={style.textCont}>
-          <img
-            className={style.logo}
-            src={require("../../img/pinit-logo-offwhite 2.png")}
-            alt="Pinit logo"
-          />{" "}
+          <a href="https://pinit-pinit.netlify.app/">
+            <img
+              className={style.logo}
+              src={require("../../img/pinit-logo-offwhite 2.png")}
+              alt="Pinit logo"
+            />
+          </a>
           <div className={style.smallText}>
             <p className={style.copy}>
               Pinit is a full stack application created as part of a four-week

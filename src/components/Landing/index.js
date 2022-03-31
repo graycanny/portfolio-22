@@ -21,23 +21,25 @@ function Landing() {
           </a>
         </ul>
       </nav>
-      <div className={style.imgCont}>
-        <img
-          className={style.img}
-          src={require("../../img/landingBlob.png")}
-          alt=""
-        />
-      </div>
-      <div>
-        <h1 className={style.heroText}>
-          Full-Stack
-          <br />
-          software
-          <br />
-          design and
-          <br />
-          development
-        </h1>
+      <div className={style.heroCont}>
+        <div className={style.imgCont}>
+          <img
+            className={style.img}
+            src={require("../../img/landingBlob.png")}
+            alt=""
+          />
+        </div>
+        <div>
+          <h1 className={style.heroText}>
+            Full-Stack
+            <br />
+            software
+            <br />
+            design and
+            <br />
+            development
+          </h1>
+        </div>
       </div>
     </div>
   );

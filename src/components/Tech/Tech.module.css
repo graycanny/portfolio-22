@@ -1,6 +1,6 @@
 .section {
   background-color: var(--white);
-  height: 65vh;
+  height: 80vh;
   width: 100vw;
 }
 
@@ -18,7 +18,7 @@ TITLE
   font-size: var(--heading);
   font-weight: 300;
   padding-top: 1rem;
-  margin: 0 0 0 0;
+  margin: 2.5rem auto 0 auto;
   position: relative;
 }
 
@@ -34,7 +34,7 @@ CARDS
 .cardCont {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .Card {
@@ -88,6 +88,8 @@ ICONS
   font-family: var(--sans);
   font-weight: 300;
   letter-spacing: 2px;
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
 
 .icon {
