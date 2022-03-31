@@ -37,7 +37,7 @@ CARDS
   margin-top: 2rem;
 }
 
-.Card {
+.card {
   height: 40vh;
   width: 40vw;
   text-align: center;
@@ -98,4 +98,37 @@ ICONS
 
 .scrollClassIcon {
   opacity: 1;
+}
+
+/*********************************
+MOBILE
+**********************************/
+
+@media only screen and (max-width: 500px) {
+  .section {
+    height: 100vh;
+  }
+
+  .title {
+    font-size: 36px;
+    margin: 20px auto 0 auto;
+    font-weight: 400;
+  }
+
+  .ul {
+    width: 5rem;
+  }
+
+  .cardCont {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 1.5rem auto 0 auto;
+  }
+
+  .card {
+    margin: 0 auto 1rem auto;
+    height: 40vh;
+    width: 80vw;
+  }
 }

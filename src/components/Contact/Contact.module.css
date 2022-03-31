@@ -8,6 +8,10 @@
   align-items: center;
 }
 
+/**********************
+MAIN CONTAINER
+***********************/
+
 .contactMain {
   height: 80vh;
   width: 80vw;
@@ -29,6 +33,10 @@
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+/**********************
+FORM
+***********************/
 
 .reactForm {
   height: 60vh;
@@ -52,6 +60,10 @@
   text-align: center;
 }
 
+/**********************
+MAP
+***********************/
+
 .mapH {
   font-family: var(--sans);
   font-weight: 300;
@@ -64,4 +76,49 @@
   font-weight: 300;
   color: var(--tertiary);
   margin: 30px auto 0 auto;
+}
+
+/*********************************
+MOBILE
+**********************************/
+
+@media only screen and (max-width: 500px) {
+  .section {
+    background-color: var(--tertiary);
+  }
+
+  .contactMain {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .title {
+    width: 60vw;
+    margin: 2rem 0 1rem 2.5rem;
+  }
+
+  .contactCont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reactForm {
+    height: 43vh;
+    width: 80vw;
+  }
+  .map {
+    height: 38vh;
+    width: 80vw;
+    margin-top: 1rem;
+  }
+
+  .mapH {
+    margin: 10px auto 0 auto;
+    font-size: 18px;
+  }
+
+  .mapP {
+    margin: 10px auto 0 auto;
+    font-size: 16px;
+  }
 }

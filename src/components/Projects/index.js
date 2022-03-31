@@ -28,22 +28,24 @@ function Projects() {
               linked to places, friends and family. It was created in a team of
               six, adhering to agile principles and a rotating product owner.
             </p>
-            <ul className={style.feList}>
-              <p>Front-end</p>
-              <li>React</li>
-              <li>MapBox</li>
-              <li>Auth0</li>
-              <li>Cloudinary</li>
-              <li>Netlify</li>
-            </ul>
-            <ul className={style.beList}>
-              <p>Back-end</p>
-              <li>Node.JS</li>
-              <li>PostGres</li>
-              <li>Auth0</li>
-              <li>Heroku</li>
-              <li>Postman</li>
-            </ul>
+            <div className={style.listCont}>
+              <ul className={style.feList}>
+                <p>Front End</p>
+                <li>React</li>
+                <li>MapBox</li>
+                <li>Auth0</li>
+                <li>Cloudinary</li>
+                <li>Netlify</li>
+              </ul>
+              <ul className={style.beList}>
+                <p>Back End</p>
+                <li>Node.JS</li>
+                <li>PostGres</li>
+                <li>Auth0</li>
+                <li>Heroku</li>
+                <li>Postman</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

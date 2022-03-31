@@ -19,10 +19,10 @@
   --body: 18px;
   --label: 14px;
 }
-
+/* 
 html {
   scroll-behavior: smooth;
-}
+} */
 
 body {
   box-sizing: border-box;

@@ -77,3 +77,29 @@ HERO
   margin: 3rem 0 0 10rem;
   z-index: 2;
 }
+
+/*********************************
+MOBILE
+**********************************/
+
+@media only screen and (max-width: 500px) {
+  .section {
+    overflow: hidden;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .heroCont {
+    height: 100vh;
+  }
+
+  .heroText {
+    font-size: 56px;
+    margin: 10rem 0 0 3rem;
+    letter-spacing: 5px;
+    line-height: 5rem;
+    font-weight: 500;
+  }
+}
