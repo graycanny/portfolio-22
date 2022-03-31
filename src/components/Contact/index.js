@@ -23,7 +23,7 @@ function Contact() {
               </h3>
               <p className={style.mapP}>
                 Due to that, I'm mainly interested in hybrid work in and around
-                this area, but also willing to work remote.
+                this area, but also willing to work remotely.
               </p>
             </div>
           </div>
