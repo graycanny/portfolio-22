@@ -1,16 +1,15 @@
 import React from "react";
 import style from "./Landing.module.css";
-// import FadeIn from "react-fade-in";
+//! import { useLocomotiveScroll } from "react-locomotive-scroll";
 
 function Landing() {
+  //! const { scroll } = useLocomotiveScroll();
   return (
-    <div className={style.section}>
+    <div data-scroll-section className={style.section}>
       <nav className={style.navbar}>
         <ul className={style.navItems}>
           <a href="#projects">
-            <li className={style.links} href="#projects">
-              Projects
-            </li>
+            <li className={style.links}>Projects</li>
           </a>
           <li>~</li>
           <a href="#tech">

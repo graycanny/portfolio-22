@@ -1,11 +1,13 @@
 import React from "react";
 import style from "./Projects.module.css";
 import YoutubeEmbed from "../YoutubeEmbed";
+//! import { useLocomotiveScroll } from "react-locomotive-scroll";
 
 function Projects() {
+  //! const { scroll } = useLocomotiveScroll();
   const videoId = "VHPkxwTgddA";
   return (
-    <div id="projects" className={style.section}>
+    <div data-scroll-section id="projects" className={style.section}>
       <h2 className={style.title}>Projects</h2>
       <div className={style.projCont}>
         <div className={style.videoCont}>

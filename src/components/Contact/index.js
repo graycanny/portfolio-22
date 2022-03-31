@@ -2,10 +2,12 @@ import React from "react";
 import style from "./Contact.module.css";
 import Form from "./Form";
 import Map from "./Map";
+//! import { useLocomotiveScroll } from "react-locomotive-scroll";
 
 function Contact() {
+  //! const { scroll } = useLocomotiveScroll();
   return (
-    <div id="contact" className={style.section}>
+    <div data-scroll-section id="contact" className={style.section}>
       <section className={style.contactMain}>
         <h3 className={style.title}>Get in touch</h3>
         <div className={style.contactCont}>
@@ -21,7 +23,7 @@ function Contact() {
               </h3>
               <p className={style.mapP}>
                 Due to that, I'm mainly interested in hybrid work in and around
-                this area, but also willing to work remote.
+                this area, but also willing to work remotely.
               </p>
             </div>
           </div>
