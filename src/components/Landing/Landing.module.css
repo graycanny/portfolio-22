@@ -2,7 +2,8 @@
   background-color: var(--primary);
   height: 100vh;
   width: 100vw;
-  overflow: auto;
+  /* overflow: hidden; */
+  background-image: "../../img/landingBlob.png";
 }
 
 a {
@@ -37,12 +38,12 @@ NAVBAR
 }
 
 .links {
-  transition: 1s;
+  border-bottom: none;
+  /* transition: 1s; */
 }
 
 .links:hover {
   border-bottom: solid 0.5px var(--text);
-  border-bottom: 50%;
   cursor: pointer;
 }
 
@@ -50,19 +51,23 @@ NAVBAR
 HERO
 *****/
 
+.heroCont {
+  height: 90vh;
+}
+
 .imgCont {
   position: absolute;
-  z-index: 1;
 }
 
 .img {
   position: relative;
   height: 90%;
   width: 100%;
+  z-index: 0;
 }
 
 .heroText {
-  position: absolute;
+  position: relative;
   font-family: var(--serif);
   font-size: var(--landing);
   font-weight: 300;
@@ -70,5 +75,5 @@ HERO
   line-height: 8.5rem;
   color: var(--text);
   margin: 3rem 0 0 10rem;
-  z-index: 1;
+  z-index: 2;
 }
